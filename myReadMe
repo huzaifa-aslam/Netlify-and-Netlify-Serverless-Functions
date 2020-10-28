@@ -1,4 +1,56 @@
+**************for simple  project******************
+
+[build]
+  publish = "public"
+
+
 npm i -g netlify-cli // to install netlify globaly
 
 netlify deploy --prod // to deploy site on netlify
+
+netlify dev // to run file locally
+
+
+**************for react project******************
+
+create netlify.toml file and paste the following code
+
+[build]
+  command="yarn build"
+  publish = "build/"
+
+**************for react project******************
+to create netlify functions
+
+create netlify.toml file and paste the following code
+
+[build]
+  command="yarn build"
+  publish = "build/"
+  functions="functions/"
+
+then 
+
+type in command cli
+
+netlify functions:create hello // hello will be the name of file
+
+then
+
+netlify dev
+
+in CLI there will be a "port" which will listen the serverless functions copy the port and open new tab type "localhost:<paste port>"
+
+for more
+
+see app.jsx in src directory
+
+**************for gatsby project******************
+
+create netlify.toml file and paste the following code
+
+[build]
+  command="yarn build"
+  publish = "public/"
+
 
