@@ -1,0 +1,4 @@
+npm i -g netlify-cli // to install netlify globaly
+
+netlify deploy --prod // to deploy site on netlify
+
