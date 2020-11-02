@@ -19,7 +19,7 @@ create netlify.toml file and paste the following code
   command="yarn build"
   publish = "build/"
 
-**************for react project******************
+**************for react project with netlify functions******************
 to create netlify functions
 
 create netlify.toml file and paste the following code
